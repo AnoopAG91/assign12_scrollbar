@@ -31,12 +31,8 @@ function App() {
 
 
 
-  const winner = checkWinner(upDateBoard)
-  if(winner){
-    if (winner === "O"){
-      let {oScore} = scores;
-    }else 
-  }
+   checkWinner(upDateBoard)
+ 
   setBoard(upDateBoard);
 
   setXPlaying(!xPlaying);
