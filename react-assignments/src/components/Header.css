@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #054570;
+    padding:10px
+}
+.header button{
+    display: inline-block;
+    background: white;
+    color: #054570;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
